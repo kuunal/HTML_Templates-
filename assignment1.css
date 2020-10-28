@@ -1,17 +1,17 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
   width: 70%;
   margin: auto auto;
-  border: 3px solid red;
+  border: 1px solid red;
   height: 100%;
 }
 
 .top-container {
-  height: 45%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -35,7 +35,6 @@
 }
 
 .second-section {
-  border: 1px solid red;
   width: 100%;
   height: 55%;
   display: flex;
@@ -53,12 +52,10 @@
 .second-section__box1 {
   height: 100px;
   width: 30%;
-  border: 1px solid gold;
 }
 
 .second-section__box2 {
   height: 30px;
-  border: 1px solid gray;
   width: 10%;
   align-items: baseline;
 }
@@ -66,7 +63,7 @@
 .fourth-section {
   height: 100%;
   width: 100%;
-  border: 5px solid black;
+  border: 1px solid black;
 }
 
 .fourth-section > .fourth-section-1 {
@@ -125,11 +122,9 @@
 
 .fourth-section-3 {
   display: flex;
-  /* justify-content: center; */
   width: 100%;
   height: 20%;
   align-items: center;
-  border: 3px solid red;
 }
 
 .fourth-section-3__box-1 {
@@ -152,6 +147,42 @@
   background-color: white;
 }
 
-div > div {
+div > div :not(.top-container) {
   margin: 1%;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.tabs-container__tabs {
+  /* margin: 0px !important; */
+  display: flex;
+  height: 25px;
+  width: 100%;
+}
+
+.tabs-container__tabs__tab1 {
+  height: 100%;
+  width: 10%;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 700px;
+  border: 1px solid black;
+}
+
+.tabs-container__nexttab {
+  width: 10%;
+  background-color: gray;
+  height: 15px;
 }
