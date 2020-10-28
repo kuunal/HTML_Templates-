@@ -15,8 +15,9 @@
   display: flex;
   flex-direction: column;
   align-content: space-between;
-  width: 100%;
+  width: 96%;
   height: 100%;
+  /* justify-content: space-between; */
 }
 
 .top-container__section-1 {
@@ -27,4 +28,14 @@
 
 .top-container__section-1__header {
   font-size: 2em;
+}
+
+.top_container__pno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div > div {
+  margin: 2%;
 }
