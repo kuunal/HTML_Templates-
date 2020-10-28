@@ -7,7 +7,7 @@
 .container {
   width: 70%;
   margin: auto;
-  height: 100vh;
+  height: 100%;
   border: 1px solid black;
 }
 
@@ -38,4 +38,51 @@
 
 div > div {
   margin: 2%;
+}
+
+.message-container {
+  width: 96%;
+  border: 1px solid black;
+}
+
+.message-container__first-line {
+  display: flex;
+}
+
+.message-container__first-line select {
+  width: 20%;
+}
+
+.message-container__first-line > p,
+.message-container__second-line > p {
+  width: 20%;
+  text-align: right;
+}
+
+.message-container__second-line {
+  display: flex;
+}
+
+.message-container__second-line__flex-1 {
+  flex: 1;
+}
+
+.message-container__second-line__flex-1 > textarea {
+  width: 100%;
+}
+
+.message-container__second-line__flex-1 p {
+  text-decoration: underline;
+}
+
+.message-container__second-line__flex-2 {
+  display: flex;
+  margin-top: 4%;
+  justify-content: start;
+  align-items: center;
+}
+
+.message-container__second-line__flex-2 button {
+  height: 3em;
+  outline: none;
 }
