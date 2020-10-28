@@ -175,6 +175,7 @@ div > div :not(.top-container) {
 
 .bottom-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
   height: 700px;
@@ -185,4 +186,21 @@ div > div :not(.top-container) {
   width: 10%;
   background-color: gray;
   height: 15px;
+}
+
+.bottom-container > div {
+  margin: 1em;
+}
+
+.section-1 {
+  display: flex;
+  width: 98%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.section-1__box-1 {
+  height: 5%;
+  width: 30%;
+  background-color: red;
 }
