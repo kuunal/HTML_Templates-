@@ -187,9 +187,11 @@
 .card__card1 {
   padding: 1em;
   display: flex;
+  height: 100%;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .card__card1 img {
