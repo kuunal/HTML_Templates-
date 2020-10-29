@@ -84,3 +84,34 @@
   margin-left: 2%;
   cursor: pointer;
 }
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em;
+  z-index: 999;
+}
+
+.navigation img {
+  height: 20px;
+}
+
+.navigation__elements {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.navigation__elements :first-child {
+  color: tomato;
+  text-decoration: underline;
+}
+
+.navigation__elements a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
