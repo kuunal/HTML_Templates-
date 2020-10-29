@@ -7,7 +7,7 @@
 .container {
   width: 70%;
   margin: auto auto;
-  border: 1px solid red;
+  border: 1px solid black;
   height: 100%;
 }
 
@@ -73,22 +73,23 @@
   align-items: center;
 }
 
+.fourth-section-1__box {
+  background-color: pink;
+}
+
 .fourth-section-1__box-1 {
   height: 20px;
   width: 20%;
-  background-color: red;
 }
 
 .fourth-section-1__box-2 {
   height: 40px;
   width: 37%;
-  background-color: black;
 }
 
 .fourth-section-1__box-3 {
   height: 20px;
   width: 37%;
-  background-color: black;
 }
 
 .fourth-section-2 {
@@ -111,13 +112,11 @@
 .fourth-section-2__box-1 {
   height: 80px;
   width: 100%;
-  background-color: blueviolet;
 }
 
 .fourth-section-2__box-2 {
   height: 20px;
   width: 50%;
-  background-color: blueviolet;
 }
 
 .fourth-section-3 {
@@ -130,13 +129,11 @@
 .fourth-section-3__box-1 {
   width: 30%;
   height: 40px;
-  background-color: saddlebrown;
 }
 
 .fourth-section-3__box-2 {
   width: 30%;
   height: 20px;
-  background-color: saddlebrown;
 }
 
 .bottom-container {
@@ -159,7 +156,6 @@ div > div :not(.top-container) {
 }
 
 .tabs-container__tabs {
-  /* margin: 0px !important; */
   display: flex;
   height: 25px;
   width: 100%;
@@ -178,7 +174,7 @@ div > div :not(.top-container) {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  border: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .tabs-container__nexttab {
@@ -188,7 +184,7 @@ div > div :not(.top-container) {
 }
 
 .bottom-container > div {
-  margin: 1em;
+  margin: 2%;
 }
 
 .section-1 {
@@ -201,18 +197,23 @@ div > div :not(.top-container) {
 .section-1__box-1 {
   height: 90%;
   width: 25%;
-  background-color: red;
+  background-color: pink;
 }
 
 .section-2 {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
   width: 98%;
-  background-color: wheat;
 }
 
 .section-2__box {
-  background-color: gray;
+  background-color: pink;
+  padding: 1.5em;
+}
+
+.section-2__small-box {
+  height: 15px;
+  background-color: pink;
 }
 
 .section-2__box-1 {
@@ -223,15 +224,12 @@ div > div :not(.top-container) {
 .section-2__box-2 {
   grid-column: 1/11;
   grid-row: 2/5;
-  height: 50px;
-  align-self: start;
 }
 
 .section-2__box-3 {
   grid-column: 11/13;
   align-self: center;
   grid-row: 2/5;
-  height: 50px;
 }
 
 .section-2__box-4 {
@@ -242,7 +240,6 @@ div > div :not(.top-container) {
 .section-2__box-5 {
   grid-column: 1/13;
   grid-row: 7/10;
-  height: 50px;
 }
 
 .section-2__box-6 {
@@ -253,8 +250,6 @@ div > div :not(.top-container) {
 .section-2__box-7 {
   grid-column: 1/11;
   grid-row: 12/15;
-  height: 50px;
-  align-self: start;
 }
 
 .section-2__box-8 {
@@ -265,8 +260,6 @@ div > div :not(.top-container) {
 .section-2__box-9 {
   grid-column: 3/13;
   grid-row: 18/19;
-  height: 50px;
-  align-self: start;
 }
 
 .section-2__box-10 {
@@ -277,6 +270,4 @@ div > div :not(.top-container) {
 .section-2__box-11 {
   grid-column: 1/11;
   grid-row: 22/25;
-  height: 50px;
-  align-self: start;
 }
