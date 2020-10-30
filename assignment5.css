@@ -394,3 +394,150 @@
   font-weight: bold;
   border-radius: 2px;
 }
+
+.service {
+  margin: 0 auto;
+  margin-top: 10%;
+  text-align: center;
+  width: 50%;
+}
+
+.service p {
+  text-align: center;
+}
+
+.ribbons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 10%;
+  width: 100%;
+}
+
+.ribbon {
+  border-bottom: 1px solid red;
+  width: 30px;
+  margin: 5px;
+  position: relative;
+}
+
+.ribbon:last-child::before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  background-color: red;
+  left: 0%;
+  bottom: -18%;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.ribbon:first-child::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  background-color: red;
+  right: 0;
+  bottom: -18%;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.service__main {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service__main__left {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 1vw;
+}
+
+.service__main__left > div {
+  margin: 10px;
+}
+
+.service__main__left__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 1vh;
+  -ms-flex-preferred-size: 42%;
+  flex-basis: 42%;
+  height: 225px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid beige;
+  -webkit-box-shadow: 1px 1px 5px 1px gainsboro;
+  box-shadow: 1px 1px 5px 1px gainsboro;
+  color: black;
+}
+
+.service__main__left__card > * {
+  margin: 0 2vw;
+}
+
+.service__main__left__card:first-child {
+  background-color: tomato;
+  color: white;
+}
+
+.service__main__left__card:first-child hr {
+  background-color: white;
+}
+
+.service__main__left__card img {
+  height: 40px;
+}
+
+.service__main__left__card p {
+  text-align: center;
+  font-size: 10px;
+  padding: 1vh;
+}
+
+.service__main__left__card hr {
+  padding: 0;
+  background-color: black;
+  margin: 10px;
+  width: 35px;
+  border: 1ps solid black;
+}
+
+.service__main__right img {
+  width: 140%;
+  height: 95%;
+}
+
+/*# sourceMappingURL=assignment5.css.map */
